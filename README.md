@@ -1,11 +1,22 @@
-# Special Topics in Information Science: How LLMs work, their potential and limitations
-## Information Science, INFO 4940
+# INFO 4940/5940-011: How LLMs work, their potential and limitations
+Spring 2026
+
+MW 10:10 - 11:25, Hollister 366
 
 ### Instructor: Jacob Matthews (jam963)
-### Course Staff: 
-#### PhD TA: 
-#### MPS TA: 
-#### Undergrad TAs: 
+#### PhD TA: Zhiwen Qiu (zq76)
+#### MPS TA: Karam Hejazin (kh878)
+#### Undergrad TAs: Cathy Zhao, Sruthi Sentil, Samruddhi Oke, Sofie Cole
+
+### Credits and Credit Hour Options
+- 3 Credits, letter grade only
+- Graduate students will complete an additional research project
+
+### Prerequisites 
+Familiarity with data-oriented programming in Python, including numpy. You should be comfortable with quantitative machine learning techniques such as model training, data manipulation/cleaning, and descriptive statistics. 
+
+## Course Description
+Large language models (LLMs) are ubiquitous. This course is about how they work, understood in both a technical and holistic sense: what's going on inside these models, and how do they interact with the rest of the world? 
 
 ## Course Materials
 Everything required for the course will be available either on Github or CMS. Make sure that you're watching/starring this repo and staying up to date. 
@@ -28,13 +39,31 @@ The grading scale is numeric, with scores >= 97 A+, 93 A, 90 A-, 87 B+, etc. The
 To encourage attendance, participation, and engagement with material, you will complete short worksheets in class on an approximately weekly basis. They will not be announced in advance of the day that they are assigned. These worksheets are graded for *engagement*, not correctness: all work that clearly shows effort and thought will receive full credit. Worksheet solutions will be posted here.
 
 ### Take-home assignments
-Assignments will alternate between individual and group-level assignments. They will have both coding and written components. 
+Assignments will alternate between individual and group-level assignments. They will have both coding and written components. They will be available on CMS.
+
+### In-class Exams
+This course will have two exams (see the Schedule below). They will be completed during normal class sessions[^1] without collaboration, notes, or cheatsheets. The best way to prepare for the exams will be to attend class, complete in-class activities, and do the homework. 
+
+### Final Presentation
+All students will complete a group Final Presentation during finals week. This short presentation will discuss related material (research, products, methods, etc.) that we did not cover explicitly in class. Graduate students are required to present the results of a more substantial research project (see below). More information will be posted closer to the end of the semester.
+
+### Graduate Research Project
+In addition to the Final Presentation, graduate (Masters and PhD) students will complete a short written report on their chosen research topic. More information about the Research Project will be posted in due course.
+
+## Attendance Policy
+Attendance is mandatory. You must attend all lectures. *In-class worksheets cannot be made up outside of class time.* Because life is unpredictable and I am not interested in examining the circumstances behind absences on an individual basis, you may miss two worksheets and still receive full credit. If you attend every class and complete all worksheets, you will receive a small amount of extra credit.[^1]
+
+## Slip Day Policy
+In the same spirit as the course Attendance Policy described above, we will not grant extensions to homework deadlines[^1] on an individual basis outside of truly exceptional circumstances. Instead, everyone will be given 5 total slip days for the whole semester. You can use them how you wish, but *it is up to you to keep track of them*: CMS will not stop you from exceeding your total allowance of slip days. If you turn in an assignment after a deadline with no remaining slip days, you will receive a zero on that assignment. For group assignments, slip days are still counted on an individual basis: if you are out of slip days, your group must turn the assignment in on time for you to receive credit, regardless of how many slip days other members of your group may have. *Slip days **may not** be used for Worksheets, Exams, Presentations, or Projects*.  
 
 ### Generative AI Policy
 You are permitted to use AI under the following conditions. 
 - You may *apply* AI *to* your writing, but you may not *substitute* AI for your writing. Generating text and code can be helpful, but a key goal of this course is to build condidence in indepedently organizing, designing, and writing.
 - Everything that you turn in should be text that you or your group members have typed unless otherwise specifically indicated. In other words, you may use AI tools to check, debug, or critique, but not to actually *do* any part of assignments or projects.
-- **There is zero-tolerance for "AI slop".** Course staff reserve the right to identify and penalize assignments with these characteristics.
+- **There is zero-tolerance for "AI slop".** Course staff reserve the right to identify and penalize assignments with the characteristics of AI slop.
+
+
+[^1]: If you have a relevant SDS accommodation that would be affected by this policy, please discuss this with me as early as possible (i.e. well in advance of any deadline or missed class). 
 
 
 
