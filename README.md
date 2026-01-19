@@ -18,6 +18,18 @@ Familiarity with data-oriented programming in Python, including numpy. You shoul
 ## Course Description
 Large language models (LLMs) are ubiquitous. This course is about how they work, understood in both a technical and holistic sense: what's going on inside these models, and how do they interact with the rest of the world? 
 
+More specifically, this course will cover: 
+- What a (large) language model actually is and how it compares to other types of ML models
+- The current LLM ecosystem
+- Prompting, "thinking", in-context learning, finetuning
+- How LLMs are evaluated
+- How to interpret what LLMs are doing 
+
+## Course Structure and Mechanics
+Wednesday sessions will cover technical background, while Monday sessions will be focused on collaborative, hands-on activities. We will use class time to work together (in small groups or as an entire class) and share results. 
+
+This course should be accessible to anyone with the proper pre-requisites. If you have any form of documented disability that affects your ability to participate fully in the course, we will work with you to ensure that you have the best possible chance to succeed. For all students, we ask that you be proactive in communicating with course staff about any life circumstances that may affect your engagement or performance in the course. 
+
 ## Course Materials
 Everything required for the course will be available either on Github or CMS. Make sure that you're watching/starring this repo and staying up to date. 
 
@@ -51,19 +63,45 @@ All students will complete a group Final Presentation during finals week. This s
 In addition to the Final Presentation, graduate (Masters and PhD) students will complete a short written report on their chosen research topic. More information about the Research Project will be posted in due course.
 
 ## Attendance Policy
-Attendance is mandatory. You must attend all lectures. *In-class worksheets cannot be made up outside of class time.* Because life is unpredictable and I am not interested in examining the circumstances behind absences on an individual basis, you may miss two worksheets and still receive full credit. If you attend every class and complete all worksheets, you will receive a small amount of extra credit.[^1]
+Attendance is mandatory. You must attend all lectures. *In-class worksheets cannot be made up outside of class time.* Because life is unpredictable, you may miss two worksheets and still receive full credit. If you attend every class and complete all worksheets, you will receive a small amount of extra credit.[^1]
 
 ## Slip Day Policy
 In the same spirit as the course Attendance Policy described above, we will not grant extensions to homework deadlines[^1] on an individual basis outside of truly exceptional circumstances. Instead, everyone will be given 5 total slip days for the whole semester. You can use them how you wish, but *it is up to you to keep track of them*: CMS will not stop you from exceeding your total allowance of slip days. If you turn in an assignment after a deadline with no remaining slip days, you will receive a zero on that assignment. For group assignments, slip days are still counted on an individual basis: if you are out of slip days, your group must turn the assignment in on time for you to receive credit, regardless of how many slip days other members of your group may have. *Slip days **may not** be used for Worksheets, Exams, Presentations, or Projects*.  
 
-### Generative AI Policy
+## Generative AI Policy
 You are permitted to use AI under the following conditions. 
 - You may *apply* AI *to* your writing, but you may not *substitute* AI for your writing. Generating text and code can be helpful, but a key goal of this course is to build condidence in indepedently organizing, designing, and writing.
 - Everything that you turn in should be text that you or your group members have typed unless otherwise specifically indicated. In other words, you may use AI tools to check, debug, or critique, but not to actually *do* any part of assignments or projects.
-- **There is zero-tolerance for "AI slop".** Course staff reserve the right to identify and penalize assignments with the characteristics of AI slop.
+- **There is zero-tolerance for "AI slop".** Course staff reserve the right to identify and penalize assignments with the characteristics of "AI slop". 
 
 
-[^1]: If you have a relevant SDS accommodation that would be affected by this policy, please discuss this with me as early as possible (i.e. well in advance of any deadline or missed class). 
+## Schedule
+
+| Week | Monday | Wednesday |
+|------|--------|-----------|
+| 1 (1/19)   | No class | Intro: What is an LLM? | 
+| 2 (1/26)   | Use cases and key players |  Inference w/ Hugging Face | 
+| 3 (2/02)   | Predictions and representations | Prompting vs. Training | 
+| 4 (2/09)   | What makes a good prompt? | Neural Networks |
+| 5 (2/16)   | No class (Feb. break) | Gradient descent and AdaGrad |
+| 6 (2/23)   | Finetuning a small LLM | Tokenization | 
+| 7 (3/02)   | Training and comparing tokenizers | Attention, embeddings, transformers | 
+| 8 (3/09)   | **Exam 1 (covers weeks 1-6)** | Data, alignment, societal impacts | 
+| 9 (3/16)   | Exploring (pre/post)training datasets | Instruction tuning | 
+| 10 (3/23)   | Comparing base and instruction-tuned models | RAG and embedding models | 
+| 11 (3/30)  | Similarity, retrieval, prompting | Efficiency (quantization, LoRA) | 
+| 12 (4/06)  | Spring break | Spring break | 
+| 13 (4/13)  | Impacts of quantization | Interpretability methods | 
+| 14 (4/20)  | Exploring SAEs and linear probes | Agents and tools |
+| 15 (4/27)  | **Exam 2 (covers weeks 7-13)** | Multimodality | 
+| 16 (5/04)  | Summary and wrap-up    | No class | 
+
+Final presentations and final project deadlines will be due after classes end (date TBD). 
+Please note that this schedule is subject to change. Check this repo frequently to ensure that you are up to date. 
+
+
+
+[^1]: If you have a relevant SDS accommodation that would be affected by this policy, please discuss this with me as early as possible (i.e. well in advance of any deadline or missed class) so that we can make the appropriate arrangements. 
 
 
 
